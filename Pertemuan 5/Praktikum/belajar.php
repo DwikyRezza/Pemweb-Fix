@@ -11,7 +11,7 @@ echo "Hello, World!";
 ?>
 
 <?php
-    define("NAMA", "Ahmad");
+    define( "NAMA", "Ahmad");
     define("UMUR", "20");
     define("NIM", "12309");
     echo "<br>"."Nama : " . NAMA . "<br>";
