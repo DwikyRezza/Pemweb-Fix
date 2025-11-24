@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX ShoutBox Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f8f8f8; }
+    h2 { color: #333; }
+    input[type="text"] { padding: 8px; width: 250px; border-radius: 4px; border: 1px solid #aaa; }
+    input[type="button"] { padding: 8px 15px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    input[type="button"]:hover { background: #0056b3; }
+    #data { margin-top: 20px; padding: 10px; background: white; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 350px; }
+  </style>
+</head>
+<body>
+
+  <h2>🗣️ AJAX ShoutBox Example</h2>
+
+  <form id="form1">
+    <input type="text" name="msg" id="msg" placeholder="Tulis pesan..." />
+    <input type="button" value="Shout!" id="shoutbutton" />
+  </form>
+
+  <div id="data">
+    <em>Pesan akan muncul di sini...</em>
+  </div>
+
+  <!-- AJAX Script -->
+  <script src="ajax.js"></script>
+
+</body>
+</html>

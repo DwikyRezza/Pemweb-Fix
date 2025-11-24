@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-200 font-sans">
+    <div class="text-center mt-10">
+        <h1 class="text-3xl text-blue-600">
+            koen jancok
+        </h1>
+
+        <p class="text-3xl mt-3">
+            js itu adalah logika dan interaksi dari web
+        </p>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- contoh variable -->
+    <div class="text-center mt-10">
+        <h2 class="text-2xl font-bold mb-3">
+            variabel dan konsol
+        </h2>
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="contohVariabel()">
+            coba cek
+        </button>
+    </div>
+
+    <script src="index.js">
+
+    </script>
+    <div class="text-center mt-10">
+        <h2 class="text-3xl font-bold mb-3">
+            Percabangan
+        </h2>
+        <button class="bg-pink-500 text-white px-4 py-2 rounded" onclick="cekNilai()">
+            cek nilai
+        </button>
+    </div>
+
+    <!-- Array -->
+    <div class="text-center mt-10">
+        <h2 class="text-3xl font-bold mb-3">
+            Array
+        </h2>
+        <button class="bg-indigo-500 text-white px-4 py-2 rounded" onclick="tampilanArray()">
+            cek array
+        </button>
+    </div>
+
+    <!-- fungsi -->
+    <div class="text-center mt-10">
+        <h2 class="text-3xl font-bold mb-3">
+            Penjumlahan
+        </h2>
+        <button class="bg-red-500 text-white px-4 py-2 rounded " onclick="penjumlahan()">
+            Penjumlahan
+        </button>
+    </div>
+
+    <div class="text-center mt-10">
+        <h2 class="text-3xl font-bold mb-3">
+            Animasi sederhana
+        </h2>
+        <div id="kotak" class=" w-20 h-20 bg-indigo-500 rounded transition-all duration-700 mx-2" >
+        </div>
+        <button id="gerak" class="mt-3 bg-green-500 text-white px-4 py-2 rounded">
+            Animasi
+        </button>
+    </div>
+
+    <div class="text-center mt-10">
+        <h2 class="text-3xl font-bold mb-3">
+            Counter App
+        </h2>
+        <p id="count" class="text-4xl my-4 font-mono">
+            
+        </p>
+        <button id="plus" class="bg-green-500 text-white px-4 py-2 rounded">
+            +
+        </button>
+        <button id="minus" class="bg-red-500 text-white px-4 py-2 rounded">
+            -
+        </button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
